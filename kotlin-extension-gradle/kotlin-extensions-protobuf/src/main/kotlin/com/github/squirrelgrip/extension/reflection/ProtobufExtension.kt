@@ -1,4 +1,4 @@
-package com.github.squirrelgrip.extension.protobuf
+package com.github.squirrelgrip.extension.reflection
 
 import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.databind.JsonNode

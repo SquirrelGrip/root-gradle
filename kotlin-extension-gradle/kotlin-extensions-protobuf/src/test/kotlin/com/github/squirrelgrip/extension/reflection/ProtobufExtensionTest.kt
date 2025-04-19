@@ -1,4 +1,4 @@
-package com.github.squirrelgrip.extension.protobuf
+package com.github.squirrelgrip.extension.reflection
 
 import com.github.squirrelgrip.extension.encode.fromBase64
 import com.github.squirrelgrip.extension.encode.fromHex

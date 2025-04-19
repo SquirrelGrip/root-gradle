@@ -1,4 +1,4 @@
-package com.github.squirrelgrip.extension.protobuf
+package com.github.squirrelgrip.extension.reflection
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

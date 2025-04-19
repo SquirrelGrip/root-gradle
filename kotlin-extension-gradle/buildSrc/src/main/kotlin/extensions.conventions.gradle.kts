@@ -2,6 +2,8 @@ plugins {
     kotlin("jvm")
     java
     `version-catalog`
+    id("org.jetbrains.dokka")
+    id("signing")
 }
 
 repositories {

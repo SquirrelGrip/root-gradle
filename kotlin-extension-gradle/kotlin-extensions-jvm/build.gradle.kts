@@ -29,6 +29,14 @@ tasks.compileKotlin {
     dependsOn(tasks.generateGrammarSource)
 }
 
+tasks.dokkaJavadoc {
+    dependsOn(tasks.generateGrammarSource)
+}
+
+tasks.dokkaHtmlPartial {
+    dependsOn(tasks.generateGrammarSource)
+}
+
 sourceSets {
     main {
         java {

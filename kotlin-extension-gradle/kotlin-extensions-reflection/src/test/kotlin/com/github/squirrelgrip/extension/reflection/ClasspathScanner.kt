@@ -64,7 +64,7 @@ object ClasspathScanner {
         try {
             Class.forName(className)
             loadable = true
-        } catch (e: NoClassDefFoundError) {
+        } catch (_: NoClassDefFoundError) {
         }
         return ClassDetail(className, loadable)
     }

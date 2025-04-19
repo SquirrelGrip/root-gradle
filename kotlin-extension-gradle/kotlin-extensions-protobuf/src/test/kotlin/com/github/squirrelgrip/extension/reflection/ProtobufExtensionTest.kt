@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test
 
 class ProtobufExtensionTest {
     @Test
-    fun `toProtobuf`() {
+    fun toProtobuf() {
         assertThat(Sample().toProtobuf().toHex()).isEqualTo("0800120F412053696D706C6520537472696E671A01311A03414141")
         assertThat(Sample().toProtobuf().toBase64()).isEqualTo("CAASD0EgU2ltcGxlIFN0cmluZxoBMRoDQUFB")
         assertThat("CAASD0EgU2ltcGxlIFN0cmluZxoBMRoDQUFB".fromBase64().toInstance<Sample>()).isEqualTo(Sample())

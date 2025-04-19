@@ -12,7 +12,7 @@ tasks.register("listSubprojects") {
             println("No subprojects found.")
         } else {
             subprojects.forEach { subproject ->
-                println("${subproject.name}")
+                println(subproject.name)
             }
         }
     }

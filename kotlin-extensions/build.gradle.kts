@@ -17,7 +17,3 @@ tasks.register("listSubprojects") {
         }
     }
 }
-
-subprojects {
-    apply(plugin = "org.jetbrains.dokka")
-}

@@ -1,8 +1,7 @@
 plugins {
     kotlin("jvm")
-    java
-    `version-catalog`
     id("org.jetbrains.dokka")
+    `version-catalog`
     id("signing")
 }
 
